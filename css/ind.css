@@ -1,0 +1,142 @@
+/* Custom Properties 
+------------------------------- */
+
+:root {
+    --primary-font: "Averta", sans-serif;
+    --primary-color: #514949;
+    --secondary-color: #E7332B;
+    --form-border-color: #0B0B0B;
+    --banner-bg-color: #F2EBE9;
+
+    --facebook-color: #3b5998;
+    --twitter-color: #00acee;
+
+}
+
+/* Bootstrap Overrides
+------------------------------- */
+
+/* .btn {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 0;
+
+
+    color: #fff;
+    font-weight: 700;
+
+
+    color: #fff;
+    font-weight: 700;
+
+} */
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    border-color: var(--secondary-color) !important;
+    background: var(--secondary-color) !important;
+}
+
+/* p {
+    margin-bottom: 0;
+} */
+
+.cert-hero-bg{
+    background-color: rgb(247, 243, 242);
+}
+.fontey {
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.heading-block{
+    background-color: rgb(247, 243, 242);
+}
+.certificate-header {
+    font-size: 16px;
+    color: #E7332B;
+    font-family:'Averta';
+    font-weight: 600;
+}
+
+.text-styling{
+    font-family: 'Averta-Bold';
+     font-size: 32px;
+    color: var(--primary-color);
+}
+
+.requestCertificate .form-control,
+.custom-select {
+    height: 55px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    border-radius: 0px;
+    border-color: var(--form-border-color);
+    border: 1px solid var(--form-border-color);
+}
+
+.jj:hover {
+    color: #E7332B !important;
+}
+
+.custom-select {
+    background:#fff url('../../assets/images/certificate-request/select-dropdown-icon.svg') no-repeat right 18px center / 15px 10px;
+}
+
+.requestCertificate .form-control::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(102, 102, 102, 0.5);
+}
+
+.requestcert-container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.page-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 14px;
+}
+
+/* Request Form
+------------------------------- */
+
+.requestCertificate .form-section.container {
+    max-width: 878px;
+}
+
+.form-fieldset {
+    margin-bottom: 41px;
+}
+
+.requestCertificate .form-title {
+    font-family: 'Averta-Regular';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: var(--secondary-color);
+}
+
+.tel-format {
+    max-width: 96px;
+    margin-right: 19px;
+    border-radius: 4px;
+}
+
+.certificate-header{
+    font-family: 'Averta-Regular';
+    font-size: 16px;
+    font-weight: 600;
+}

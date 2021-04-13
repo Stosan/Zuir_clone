@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Averta-Regular";
+    src: url("../../assets/fonts/Averta/Averta-Thin.woff") format("woff"),
+        url("../../assets/fonts/Averta/Averta-Thin.otf") format("opentype");
+    ;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url("../../assets/fonts/Averta/Averta.woff") format("woff"),
+        url("../../assets/fonts/Averta/Averta.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Averta-bold";
+    src: url("../../assets/fonts/Averta/Averta-Bold.woff") format("woff"),
+        url("../../assets/fonts/Averta/Averta-Bold.otf") format("opentype");
+    font-weight: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+  }
+  .wrapper, .single-mentor {
+    max-width: 1238px;
+    margin: 0 auto;
+    margin: 50px auto 150px auto;
+    background: #fff;
+  }
+  .single-mentor>h1{
+    font-family: "Averta" ;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .wrapper > * {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .mentor-img {
+    background-image: url("../../assets/images/mentors/morun.jpg");
+    background-color: #c4c4c4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 314px;
+    height: 258px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .ment-bio {
+    font-family: "Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+  }
+  
+  .ment-name {
+    font-family: "Averta";
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+  }
+  .fa-twitter,
+  .fa-linkedin {
+    font-size: 18px;
+    color: #514949;
+    margin:10px;
+  }
+  .fa-twitter:hover{
+    color:  #00acee;
+    cursor: pointer;
+  }
+  .fa-linkedin:hover{
+    color:  #0e76a8;
+    cursor: pointer;
+  }
+  .ment-track {
+    font-family: "Averta-Regular ";
+    font-size: 14px;
+    line-height: 24px;
+    color: #514949;
+    padding: 10px 0;
+  }
+  .ment-social-media {
+    font-family: " Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  
+   .ment-social-media h3 {
+      font-family: "Averta Demo PE Cutted Demo";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+    }
+  
+  @media screen and (max-width: 776px) {
+    .mentor-bio {
+      display: none;
+    }
+    .mentor-details {
+      margin: 20px;
+      padding: 5px;
+    }
+  }
+  
+  @media screen and (min-width: 776px) {
+    .mentor-bio {
+      display: block;
+    }
+    .box {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+    }
+  
+    .mentor-black {
+      background-color: #000;
+      z-index: 2;
+      top: 100px;
+    }
+  
+    .mentor-img {
+      z-index: 3;
+      background-image: url("../../assets/images/mentors/morun.jpg");
+      background-color: #c4c4c4;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      bottom: 100px;
+      left: 100px;
+    }
+  
+    .box-container {
+      position: relative;
+      padding: 30px;
+      height: 500px;
+      width: 55%;
+      max-width: 100%;
+      transition: all 1s ease
+    }
+    .box-container:hover {
+      transform: scale(0.8);
+      opacity: 0.4;
+      cursor: pointer;
+    }
+    .mentor-img:hover{
+      transform: rotate(5deg);
+    }
+    
+
+  
+    .mentor-details {
+      width: 45%;
+      margin-top: 100px;
+      max-width: calc(100% - 20px);
+    }
+    .mentor-bio {
+      width: 526px;
+    }
+   
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  
+  @media  (min-width: 1200px){
+    .container {
+        max-width: 1238px!important;
+     }
+}
